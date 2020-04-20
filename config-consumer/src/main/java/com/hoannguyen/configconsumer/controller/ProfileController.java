@@ -14,4 +14,6 @@ public class ProfileController {
     public MemberProfileConfiguration getConfig(){
         return memberProfileConfiguration;
     }
+
+
 }

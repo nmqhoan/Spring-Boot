@@ -13,7 +13,7 @@ public class MemberProfileConfiguration {
         return environment.getProperty("vehicle.default.model");
     }
 
-    public String minRentPeriod(){
+    public String getMinRentPeriod(){
         return environment.getProperty("member.rent.min");
     }
 }

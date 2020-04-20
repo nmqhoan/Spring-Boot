@@ -1,8 +1,6 @@
 server:
   port: 8191
 spring:
-  profiles:
-    active: prod
   cloud:
     config:
       server:
@@ -10,7 +8,3 @@ spring:
           uri: https://github.com/nmqhoan/spring-cloud-config
           search-paths:
             - 'config-files/*service'
-            - 'config-files'
-            - '*service'
-          clone-on-start: true
-
